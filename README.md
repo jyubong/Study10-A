@@ -3,7 +3,7 @@
 
 ---
 ## 👋🏻 스터디원
-|쥬봉이🐱|Hisop🐨|Charles|
+|쥬봉이🐱|Hisop🐨|Charles🐻‍❄️|
 |----|----|----|
 |[GitHub](https://github.com/jyubong)|[GitHub](https://github.com/Hi-sop)|[GitHub](https://github.com/Charl-es)|
 
