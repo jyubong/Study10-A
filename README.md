@@ -28,4 +28,5 @@
 ---
 ## 📝 스터디 모아보기
 ### 🔎 2023.09.02
-실험 주제 : Optional
+실험 주제 : Optional   
+[Go! Wiki Page](https://github.com/jyubong/Study10-A/wiki/Weak1)
