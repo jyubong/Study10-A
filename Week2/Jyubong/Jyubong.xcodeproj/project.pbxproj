@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF4758FA2AA2077B00A1CE59 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4758F92AA2077B00A1CE59 /* main.swift */; };
+		BF90E5C82AAB56FB00DC0BBF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90E5C72AAB56FB00DC0BBF /* main.swift */; };
+		BF90E5CF2AAB571200DC0BBF /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90E5CE2AAB571200DC0BBF /* Shop.swift */; };
+		BF90E5D12AAB573700DC0BBF /* Camper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90E5D02AAB573700DC0BBF /* Camper.swift */; };
+		BF90E5D52AAB58C400DC0BBF /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90E5D42AAB58C400DC0BBF /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BF4758F42AA2077B00A1CE59 /* CopyFiles */ = {
+		BF90E5C22AAB56FB00DC0BBF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF4758F62AA2077B00A1CE59 /* Jyubong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Jyubong; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF4758F92AA2077B00A1CE59 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BF90E5C42AAB56FB00DC0BBF /* Jyubong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Jyubong; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF90E5C72AAB56FB00DC0BBF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BF90E5CE2AAB571200DC0BBF /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		BF90E5D02AAB573700DC0BBF /* Camper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camper.swift; sourceTree = "<group>"; };
+		BF90E5D42AAB58C400DC0BBF /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BF4758F32AA2077B00A1CE59 /* Frameworks */ = {
+		BF90E5C12AAB56FB00DC0BBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +44,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF4758ED2AA2077A00A1CE59 = {
+		BF90E5BB2AAB56FB00DC0BBF = {
 			isa = PBXGroup;
 			children = (
-				BF4758F82AA2077B00A1CE59 /* Jyubong */,
-				BF4758F72AA2077B00A1CE59 /* Products */,
+				BF90E5C62AAB56FB00DC0BBF /* Jyubong */,
+				BF90E5C52AAB56FB00DC0BBF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BF4758F72AA2077B00A1CE59 /* Products */ = {
+		BF90E5C52AAB56FB00DC0BBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF4758F62AA2077B00A1CE59 /* Jyubong */,
+				BF90E5C42AAB56FB00DC0BBF /* Jyubong */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF4758F82AA2077B00A1CE59 /* Jyubong */ = {
+		BF90E5C62AAB56FB00DC0BBF /* Jyubong */ = {
 			isa = PBXGroup;
 			children = (
-				BF4758F92AA2077B00A1CE59 /* main.swift */,
+				BF90E5C72AAB56FB00DC0BBF /* main.swift */,
+				BF90E5D42AAB58C400DC0BBF /* Error.swift */,
+				BF90E5CE2AAB571200DC0BBF /* Shop.swift */,
+				BF90E5D02AAB573700DC0BBF /* Camper.swift */,
 			);
 			path = Jyubong;
 			sourceTree = "<group>";
@@ -65,39 +74,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF4758F52AA2077B00A1CE59 /* Jyubong */ = {
+		BF90E5C32AAB56FB00DC0BBF /* Jyubong */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF4758FD2AA2077B00A1CE59 /* Build configuration list for PBXNativeTarget "Jyubong" */;
+			buildConfigurationList = BF90E5CB2AAB56FB00DC0BBF /* Build configuration list for PBXNativeTarget "Jyubong" */;
 			buildPhases = (
-				BF4758F22AA2077B00A1CE59 /* Sources */,
-				BF4758F32AA2077B00A1CE59 /* Frameworks */,
-				BF4758F42AA2077B00A1CE59 /* CopyFiles */,
+				BF90E5C02AAB56FB00DC0BBF /* Sources */,
+				BF90E5C12AAB56FB00DC0BBF /* Frameworks */,
+				BF90E5C22AAB56FB00DC0BBF /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Jyubong;
-			productName = Jyubong;
-			productReference = BF4758F62AA2077B00A1CE59 /* Jyubong */;
+			productName = Type;
+			productReference = BF90E5C42AAB56FB00DC0BBF /* Jyubong */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BF4758EE2AA2077A00A1CE59 /* Project object */ = {
+		BF90E5BC2AAB56FB00DC0BBF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					BF4758F52AA2077B00A1CE59 = {
+					BF90E5C32AAB56FB00DC0BBF = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = BF4758F12AA2077A00A1CE59 /* Build configuration list for PBXProject "Jyubong" */;
+			buildConfigurationList = BF90E5BF2AAB56FB00DC0BBF /* Build configuration list for PBXProject "Jyubong" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +114,32 @@
 				en,
 				Base,
 			);
-			mainGroup = BF4758ED2AA2077A00A1CE59;
-			productRefGroup = BF4758F72AA2077B00A1CE59 /* Products */;
+			mainGroup = BF90E5BB2AAB56FB00DC0BBF;
+			productRefGroup = BF90E5C52AAB56FB00DC0BBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF4758F52AA2077B00A1CE59 /* Jyubong */,
+				BF90E5C32AAB56FB00DC0BBF /* Jyubong */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BF4758F22AA2077B00A1CE59 /* Sources */ = {
+		BF90E5C02AAB56FB00DC0BBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4758FA2AA2077B00A1CE59 /* main.swift in Sources */,
+				BF90E5C82AAB56FB00DC0BBF /* main.swift in Sources */,
+				BF90E5D12AAB573700DC0BBF /* Camper.swift in Sources */,
+				BF90E5D52AAB58C400DC0BBF /* Error.swift in Sources */,
+				BF90E5CF2AAB571200DC0BBF /* Shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BF4758FB2AA2077B00A1CE59 /* Debug */ = {
+		BF90E5C92AAB56FB00DC0BBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +199,7 @@
 			};
 			name = Debug;
 		};
-		BF4758FC2AA2077B00A1CE59 /* Release */ = {
+		BF90E5CA2AAB56FB00DC0BBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +252,7 @@
 			};
 			name = Release;
 		};
-		BF4758FE2AA2077B00A1CE59 /* Debug */ = {
+		BF90E5CC2AAB56FB00DC0BBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +261,7 @@
 			};
 			name = Debug;
 		};
-		BF4758FF2AA2077B00A1CE59 /* Release */ = {
+		BF90E5CD2AAB56FB00DC0BBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -261,25 +273,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF4758F12AA2077A00A1CE59 /* Build configuration list for PBXProject "Jyubong" */ = {
+		BF90E5BF2AAB56FB00DC0BBF /* Build configuration list for PBXProject "Jyubong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF4758FB2AA2077B00A1CE59 /* Debug */,
-				BF4758FC2AA2077B00A1CE59 /* Release */,
+				BF90E5C92AAB56FB00DC0BBF /* Debug */,
+				BF90E5CA2AAB56FB00DC0BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF4758FD2AA2077B00A1CE59 /* Build configuration list for PBXNativeTarget "Jyubong" */ = {
+		BF90E5CB2AAB56FB00DC0BBF /* Build configuration list for PBXNativeTarget "Jyubong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF4758FE2AA2077B00A1CE59 /* Debug */,
-				BF4758FF2AA2077B00A1CE59 /* Release */,
+				BF90E5CC2AAB56FB00DC0BBF /* Debug */,
+				BF90E5CD2AAB56FB00DC0BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BF4758EE2AA2077A00A1CE59 /* Project object */;
+	rootObject = BF90E5BC2AAB56FB00DC0BBF /* Project object */;
 }
