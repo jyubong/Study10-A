@@ -11,7 +11,7 @@ enum PurchaseError: Error {
 
 
 
-func buy(productNumber: Int)  {
+func buy(productNumber: Int) throws {
     guard productsList[productNumber] != nil else {
         throw PurchaseError.nonexistentOrOutofStockProduct
     }
