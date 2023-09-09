@@ -186,13 +186,14 @@ TableView 수직으로만 스크롤이 가능하고, collectionView는 수직/�
 연락처 목록을 토글형태로 열고 닫는 구현은 이 기능을 사용한것으로 보인다(정확하지 않음)
 
 #### 화면전환을 구성하는 방식 구분하기
-화면전환의 방식에는 세그/네비게이션 방식이 있다는 것만 알아두고 넘어가면 될 듯
-나중에 배우게 될 것이라는 코멘트를 받았다.
-당장은 modal & navigation 선택 기준이 더 중요하다.
+화면전환의 방식에는 세그/네비게이션 방식이 있다는 것만 알아두고 넘어가면 될 듯  
+나중에 배우게 될 것이라는 코멘트를 받았다.  
+당장은 modal & navigation 선택 기준이 더 중요하다.  
 
 ---
 ### 🔎 참고문서
-[modal 타입과 네비게이션 타입 선택 기준 - 모범사례 참고하기](https://developer.apple.com/design/human-interface-guidelines/modality)
-[list-and-tables](https://developer.apple.com/design/human-interface-guidelines/lists-and-tables)
-[disclosure-controls](https://developer.apple.com/design/human-interface-guidelines/disclosure-controls)
+[modal 타입과 네비게이션 타입 선택 기준 - 모범사례 참고하기](https://developer.apple.com/design/human-interface-guidelines/modality)  
+[list-and-tables](https://developer.apple.com/design/human-interface-guidelines/lists-and-tables)  
+[disclosure-controls](https://developer.apple.com/design/human-interface-guidelines/disclosure-controls)  
+
 
