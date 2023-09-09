@@ -34,6 +34,10 @@ do {
     print("돈 부족.")
 }
 
+let result = Result {
+    try buy(productNumber: 2)
+}
+
 /*
 purchasingProductNumber = 2
 
