@@ -1,6 +1,7 @@
 ## MVC 서로의 관계
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fa8bd3bb-51a5-4484-b966-2f23cf6af8c5/8b5346bf-7c98-414d-b301-aa1d44012564/Untitled.png)
+![Untitled](https://github.com/jyubong/Study10-A/assets/126065608/8166689a-f14d-421e-a2eb-35734efb31bb)
+
 
 ✔️Controller → Model : Controller가 원하는대로 Model과 소통 가능
 
