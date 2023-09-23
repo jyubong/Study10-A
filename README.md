@@ -30,3 +30,15 @@
 ### 🔎 2023.09.02
 실험 주제 : Optional   
 [Go! Wiki Page](https://github.com/jyubong/Study10-A/wiki/Weak1)
+
+### 🔎 2023.09.09
+실험 주제 : Type, H.I.G   
+[Go! Wiki Page](https://github.com/jyubong/Study10-A/wiki/Weak2)
+
+### 🔎 2023.09.16
+실험 주제 : MVC   
+[Go! Wiki Page](https://github.com/jyubong/Study10-A/wiki/Weak3)
+
+### 🔎 2023.09.23
+실험 주제 : Singleton Pattern / View State Method  
+[Go! Wiki Page](https://github.com/jyubong/Study10-A/wiki/Weak4)
