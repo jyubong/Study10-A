@@ -5,4 +5,11 @@
 //  Created by Hisop on 2023/11/18.
 //
 
-import Foundation
+typealias WattPerHour = Int
+typealias Watt = Int
+
+protocol Chargeable {
+    var maximumWattPerHour: WattPerHour { get }
+    
+    func convert(chargeableWattPerHour: WattPerHour) -> WattPerHour
+}
