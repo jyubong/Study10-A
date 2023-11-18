@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B92AA2EB2B08383B00BD3B01 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92AA2EA2B08383B00BD3B01 /* main.swift */; };
 		B92AA2F22B08385B00BD3B01 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92AA2F12B08385B00BD3B01 /* Protocol.swift */; };
+		BF4065A92B083B2500BA572D /* Charger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4065A82B083B2500BA572D /* Charger.swift */; };
 		B92AA2F42B083B7400BD3B01 /* MacBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92AA2F32B083B7400BD3B01 /* MacBook.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		B92AA2E72B08383B00BD3B01 /* POP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = POP; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92AA2EA2B08383B00BD3B01 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B92AA2F12B08385B00BD3B01 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		BF4065A82B083B2500BA572D /* Charger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charger.swift; sourceTree = "<group>"; };
 		B92AA2F32B083B7400BD3B01 /* MacBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 			children = (
 				B92AA2F12B08385B00BD3B01 /* Protocol.swift */,
 				B92AA2EA2B08383B00BD3B01 /* main.swift */,
+				BF4065A82B083B2500BA572D /* Charger.swift */,
 				B92AA2F32B083B7400BD3B01 /* MacBook.swift */,
 			);
 			path = POP;
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B92AA2EB2B08383B00BD3B01 /* main.swift in Sources */,
+				BF4065A92B083B2500BA572D /* Charger.swift in Sources */,
 				B92AA2F42B083B7400BD3B01 /* MacBook.swift in Sources */,
 				B92AA2F22B08385B00BD3B01 /* Protocol.swift in Sources */,
 			);
